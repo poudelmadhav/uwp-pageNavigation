@@ -8,6 +8,20 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <StackPanel Orientation="Vertical"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <TextBlock Text="This is my main page."
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       FontSize="30"
+                       FontWeight="ExtraBold"/>
+            <Button Name="mainpageBtn"
+                    Content="Click!"
+                    FontSize="20"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Click="mainpageBtn_Click"/>
+        </StackPanel>
     </Grid>
 </Page>
